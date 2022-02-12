@@ -82,3 +82,23 @@ h1 {
   -webkit-transition: .3s;
   transition: .3s;
 }
+
+.form__button {
+  display: block;
+  margin-left: auto;
+  padding: var(--small-font-size) 2rem;
+  outline: none;
+  border: none;
+  background-color: #1a73e8;
+  color: #fff;
+  font-size: var(--normal-font-size);
+  border-radius: .5rem;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.form__button:hover {
+  -webkit-box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+}
