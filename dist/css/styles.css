@@ -103,10 +103,9 @@ h1 {
           box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
 }
 
-.form__input:focus + .form__label {
+.form__input:not(:placeholder-shown).form__input:not(:focus) + .form__label {
   top: -.5rem;
   left: .8rem;
-  color: var(--main-color);
   font-size: var(--small-font-size);
   font-weight: 500;
   z-index: 10;
