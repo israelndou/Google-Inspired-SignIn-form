@@ -36,3 +36,9 @@ h1 {
     height: 100vh;
 }
 
+.form {
+    width: 360px;
+    padding: 4rem 2rem;
+    border-radius: var(--normal-font-size);
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
